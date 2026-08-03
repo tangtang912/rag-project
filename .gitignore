@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables (密钥文件，绝对不能上传)
+.env
+.env.local
+.env.*.local
+
+# IDE (VSCode, PyCharm等)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata (Mac/Windows系统文件)
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# 本项目相关的本地数据目录（Chroma持久化目录 + 上传文件目录）
+chroma_db/
+data/
+*.db
+
+# Streamlit 本地缓存
+.streamlit/
+.streamlitsecrets/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# pyinstaller
+*.spec
