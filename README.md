@@ -31,8 +31,20 @@
 | 编号 | 文件夹 | 说明 | 核心知识点 |
 | :---: | :--- | :--- | :--- |
 | 01 | [01_file_upload](./01_file_upload) | Streamlit 文件上传服务 | `st.file_uploader`, 文件读取与解码 |
-| 02 | 待更新 | - | - |
+| 02 | [02_knowledge_base](./02_knowledge_base) | 知识库服务模块 | Chroma向量存储, 文本分割, MD5去重 |
 | 03 | 待更新 | - | - |
+
+## 📂 项目结构
+├── 01_file_upload/                    # ✅ 已创建
+│   ├── app.py
+│   └── README.md
+│
+├── 02_knowledge_base/                 # ✅ 已创建
+│   ├── app.py
+│   ├── config_data.py
+│   └── README.md
+│
+├── 03_xxx/                            # 📅 待创建
 
 ---
 
