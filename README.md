@@ -33,6 +33,7 @@
 | 01 | [01_file_upload](./01_file_upload) | Streamlit 文件上传服务 | `st.file_uploader`, 文件读取与解码 |
 | 02 | [02_knowledge_base](./02_knowledge_base) | 知识库服务模块 | Chroma向量存储, 文本分割, MD5去重 |
 | 03 | [03_web_knowledge_base](./03_web_knowledge_base) | Web上传+知识库整合 | Streamlit集成, session_state, 端到端流程 |
+| 04 | [04_vector_store_service](./04_vector_store_service) | 向量存储服务封装 | Chroma独立封装, as_retriever, 配置驱动 |
 
 ## 📂 项目结构
 ├── 01_file_upload/                    # ✅ 已创建
@@ -50,8 +51,10 @@
 │   ├── config_data.py
 │   └── README.md
 │
-├── 04_xxx/                            # 📅 待创建
-
----
-
+├── 04_vector_store_service/           # ✅ 已创建
+│   ├── app.py
+│   ├── config_data.py
+│   └── README.md
+│
+├── 05_xxx/                            # 📅 待创建
 
