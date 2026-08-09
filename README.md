@@ -35,6 +35,7 @@
 | 03 | [03_web_knowledge_base](./03_web_knowledge_base) | Web上传+知识库整合 | Streamlit集成, session_state, 端到端流程 |
 | 04 | [04_vector_store_service](./04_vector_store_service) | 向量存储服务封装 | Chroma独立封装, as_retriever, 配置驱动 |
 | 05 | [05_rag_service](./05_rag_service) | RAG检索增强生成 | 完整RAG链路, LCEL组合, RunnablePassthrough |
+| 06 | [06_chat_rag_service](./06_chat_rag_service) | 带对话记忆的RAG服务 | RunnableWithMessageHistory, MessagesPlaceholder, 会话管理 |
 
 ## 📂 项目结构
 ├── 01_file_upload/                    # ✅ 已创建
@@ -63,5 +64,10 @@
 │   ├── config_data.py               # 配置文件
 │   └── README.md
 │
-├── 06_xxx/                          # 📅 待创建
+├── 06_chat_rag_service/             # ✅ 已创建
+│   ├── app.py                       # 主程序
+│   ├── vector_store.py              # 向量存储服务
+│   ├── config_data.py               # 配置文件
+│   ├── file_history_store.py        # 对话历史存储
+│   └── README.md
 
