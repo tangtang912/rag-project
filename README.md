@@ -36,6 +36,7 @@
 | 04 | [04_vector_store_service](./04_vector_store_service) | 向量存储服务封装 | Chroma独立封装, as_retriever, 配置驱动 |
 | 05 | [05_rag_service](./05_rag_service) | RAG检索增强生成 | 完整RAG链路, LCEL组合, RunnablePassthrough |
 | 06 | [06_chat_rag_service](./06_chat_rag_service) | 带对话记忆的RAG服务 | RunnableWithMessageHistory, MessagesPlaceholder, 会话管理 |
+| 07 | [07_chat_web](./07_chat_web) | 智能客服Web界面 | Streamlit聊天组件, 流式输出, 会话管理 |
 
 ## 📂 项目结构
 ├── 01_file_upload/                    # ✅ 已创建
@@ -70,4 +71,15 @@
 │   ├── config_data.py               # 配置文件
 │   ├── file_history_store.py        # 对话历史存储
 │   └── README.md
+├── 07_chat_web/                     # ✅ 已创建
+│   ├── app.py                       # Streamlit 主程序
+│   ├── rag.py                       # RAG 服务类
+│   ├── vector_store.py              # 向量存储服务
+│   ├── file_history_store.py        # 对话历史存储
+│   ├── config_data.py               # 配置文件
+│   └── README.md
+│
+└── data/                            # 运行时生成
+    ├── chroma_db/
+    └── md5_records.txt
 
