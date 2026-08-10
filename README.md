@@ -20,7 +20,6 @@
 | LLM 模型 | 通义千问 (DashScope) |
 | 嵌入模型 | text-embedding-v4 (DashScope) |
 | 向量数据库 | Chroma（持久化） |
-| 文档加载 | CSVLoader, PyPDFLoader, TextLoader |
 | 文本分割 | RecursiveCharacterTextSplitter |
 | 框架 | LangChain (LCEL) |
 
